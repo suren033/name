@@ -1,0 +1,30 @@
+form {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+}
+
+form input {
+    display: block;
+    margin: 10px 0;
+    padding: 10px 30px;
+    border-color: transparent;
+    background: #006666;
+}
+
+form input::-webkit-input-placeholder { 
+    color: #fff;
+    font-size: 15px;
+}
+
+button {
+    position: absolute;
+    left: 30%;
+    padding: 10px 25px;
+    border-color: transparent;
+    background: #FF6666;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 30px;
+    cursor: pointer;
+}
